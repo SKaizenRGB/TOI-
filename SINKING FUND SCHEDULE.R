@@ -45,7 +45,5 @@ colnames (Sinking_Fund_Schedule) =
 
 rownames (Sinking_Fund_Schedule) = c(0,1:n)
 
-Sinking_Fund_Schedule
-
 library(pander)  
 pandoc.table(Sinking_Fund_Schedule, style = "grid", split.tables = Inf)
