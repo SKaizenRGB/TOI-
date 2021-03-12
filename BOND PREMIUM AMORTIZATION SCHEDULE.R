@@ -50,7 +50,5 @@ colnames (Bond_Premium_Amortization_Schedule) =
 
 rownames (Bond_Premium_Amortization_Schedule) = c(0,1:m)
 
-#Three Representations of Bond Premium Amortization Schedule
-
 library(pander)  
 pandoc.table(Bond_Premium_Amortization_Schedule, style = "grid", split.tables = Inf)
